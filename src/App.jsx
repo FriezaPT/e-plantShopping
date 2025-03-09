@@ -5,7 +5,7 @@ import './App.css';
 import AboutUs from './AboutUs';
 
 function App() {
-  
+  console.log('Got to App.jsx');
   const [showProductList, setShowProductList] = useState(false);
 
   const handleGetStartedClick = () => {
